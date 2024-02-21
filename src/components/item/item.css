@@ -1,0 +1,12 @@
+.items {
+    width: 220px;
+    border: 1px solid rgba(159, 167, 154, 0.486);
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.items:hover {
+    border: 1px solid rgba(159, 167, 154, 0.699);
+    background-color: aliceblue;
+}
