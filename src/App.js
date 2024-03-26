@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import PokemonList from './components/list/list';
+import './App.css'
 
 
 const App = () => {
@@ -26,7 +27,7 @@ const App = () => {
   }, []);
 
   return (
-    <div>
+    <div className='body'>
       <PokemonList pokemonList={pokemonList}/>
     </div>
   );

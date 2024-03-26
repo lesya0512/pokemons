@@ -7,6 +7,34 @@
     margin: 30px;
 }
 
+h1 {
+    margin: 0;
+    padding: 20px;
+}
+
 .text {
     text-align: center;
+}
+
+.form {
+    display: flex;
+    justify-content: space-around;
+}
+
+input {
+    background-color: rgb(246, 250, 253);
+    padding-left: 10px;
+    width: 500px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid rgba(159, 167, 154, 0.486);
+}
+
+select {
+    padding: 0 20px;
+    background-color: rgb(246, 250, 253);
+    width: 140px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid rgba(159, 167, 154, 0.486);
 }
