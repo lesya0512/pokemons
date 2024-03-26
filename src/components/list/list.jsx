@@ -24,7 +24,7 @@ function PokemonList( {pokemonList} ) {
     );
 
      // Получение уникальных типов покемонов
-  const uniqueTypes = Array.from(new Set(pokemonList.flatMap(pokemon => pokemon.types.map(type => type.type.name))));
+    const uniqueTypes = Array.from(new Set(pokemonList.flatMap(pokemon => pokemon.types.map(type => type.type.name))));
 
     return (
         <div className="container">
